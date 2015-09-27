@@ -12,7 +12,8 @@ result.dataPath = './data/';
 result.picPath =  './pic/';
 result.linespec = {'r.-','b*-','go-','rs-','b^-','gd-','r--'};
 
-speed.usegpu = 'cpu_double'; 
+%speed.usegpu = 'cpu_double';  %original version
+speed.usegpu = 'gpu_single';  %xinglong gao version
 speed.usecluster =0;
 speed.numcluster=4;
 speed.machine = 'lqc';

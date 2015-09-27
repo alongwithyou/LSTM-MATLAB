@@ -1,16 +1,18 @@
 # LSTM-MATLAB
 
-LSTM-MATLAB is Long Short-term Memory (LSTM) in MATLAB, which is meant to be succinct, illustrative and for research purpose only. It is accompanied with a paper for reference: [Revisit Long Short-Term Memory: An Optimization Perspective], NIPS deep learning workshop, 2014. 
+LSTM-MATLAB is Long Short-term Memory (LSTM) in MATLAB, 
+which is meant to be succinct, illustrative and for research purpose only. 
+It is accompanied with a paper for reference: [Revisit Long Short-Term Memory: An Optimization Perspective], NIPS deep learning workshop, 2014. 
 
 Creater & Maintainer
 Qi Lyu
 
 #FEATURES
   - original Long short-term Memory
-  - all connect peephole
+  - all connect peephole £¨¿ú²â¿× ÄÚ¿ú¾µ£©
   - support optimization methods like LBFGS and CG
   - CPU or GPU acceleration
-  - Mapreduce parallelization
+  - Mapreduce parallelization £¨ÁÁµã£©
   - gradient checking
   - easy configuration 
   - baseline experiment
