@@ -3,11 +3,12 @@ global mones  mzeros convert  in_size gate_size numMmcell globalData globalMask 
     out_size share_size share_size2  in ingate cellstate cells outgate...
     node_outgateInit cellinInit node_cellbiasInit delta_outInit cellstatusInit signum
 
- signum = 3.5;
+
+signum = 3.5;
 if problem.batchsize>problem.numsamples
     problem.batchsize=problem.numsamples;
 end
-
+%here usegpu
 [mones,mzeros,convert,usegpu]=gputype(speed.usegpu);
 [data,mask,test,masktest ]=feval(['gen' problem.name],problem);
 problem.numsamples=size(data,1);
